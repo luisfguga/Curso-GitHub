@@ -1568,4 +1568,19 @@ Writing objects: 100% (1/1), 176 bytes | 176.00 KiB/s, done.
 Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/luisfguga/Curso-GitHub.git
  * [new tag]         1.0.0 -> 1.0.0
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git tag
+1.0.0
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git tag -d 1.0.0
+Deleted tag '1.0.0' (was cc4ec73)
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git tag
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git push origin :1.0.0
+To https://github.com/luisfguga/Curso-GitHub.git
+ - [deleted]         1.0.0
 
