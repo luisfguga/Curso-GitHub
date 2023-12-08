@@ -1557,4 +1557,15 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git tag -a 1.0.0 -m "curso finalizado"
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git push origin main --tags
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 176 bytes | 176.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/luisfguga/Curso-GitHub.git
+ * [new tag]         1.0.0 -> 1.0.0
 
