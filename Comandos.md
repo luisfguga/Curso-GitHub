@@ -1541,4 +1541,20 @@ $ git log --graph
 |
 |     criando arquivo 2
 |
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git config --global alias.s status
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git config --global alias.g git
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ g s
+bash: g: command not found
+
+User@DESKTOP-93641C4 MINGW64 ~/git-course (main)
+$ git s
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 
